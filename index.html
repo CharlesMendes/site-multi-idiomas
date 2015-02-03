@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/languages.js"></script>
+	
+    <title>Charles Mendes - Multilinguas</title>
+</head>
+<body>
+	Teste Idiomas <br /> <br />
+	<span class="label-hello"></span> <br />
+	<span class="label-christmas"></span> <br /> <br />
+	
+	<button id="btnBR" onclick="TrocarIdioma('pt-br')">pt-BR</button>
+	<button id="btnUS" onclick="TrocarIdioma('en-us')">en-US</button>
+	
+	<script type="text/javascript">
+    //Ao abrir a pagina, carrega um idioma default Ingles
+	$(document).ready(function () {
+        languages('en-us');
+    });
+	
+	//Efetua a troca do idioma do site
+	function TrocarIdioma(idioma) {
+		languages(idioma);
+	}
+	</script>
+</body>
+</html>

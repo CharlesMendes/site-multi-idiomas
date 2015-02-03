@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <translation id="label-hello">
+        <en-us>Hello my friend Charles</en-us>
+        <pt-br>Olá meu amigo Charles</pt-br>
+    </translation>
+	<translation id="label-christmas">
+        <en-us>Merry Christmas</en-us>
+        <pt-br>Feliz Natal</pt-br>
+    </translation>
+</translations>
