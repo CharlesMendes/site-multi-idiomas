@@ -12,7 +12,7 @@ Abaixo a descriçao dos arquivos do projeto, pode ser adaptado da melhor forma p
 
 * Uma boa pratica seria separar mensagens de negocio e labels em dois arquivos .xml, nesse exemplo usamos o languages.xml, poderia existir por exemplo um labels.xml e outro mensagens.xml.... 
 * Na pagina index.html deve deve utilizar a classe correspondente ao campo do label no arquivo .xml, exemplo:
-* 
+
 		<span class="label-hello"></span>
 
 ### Pronto, criamos um exemplo de site/webapp multi idiomas
